@@ -1,0 +1,15 @@
+.header {
+  background-color: #d6d6d6;
+  height: 5rem;
+}
+.header-text {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0;
+  color: #335bb1;
+}
+.headphone {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #006492;
+}

@@ -1,12 +1,14 @@
 import React from "react";
 import "./Product.css";
+
 const Product = (props) => {
   const { image, name, price } = props.data;
   return (
-    <div className="">
-        <div className="img">
-          <img src={image} alt="" />
-        </div>
+    <div className="card-container">
+      <div className="img">
+        <img src={image} alt="" />
+      </div>
+      <div className="info">
         <h3>{name}</h3>
         <h5>Price: {price}</h5>
         <button className="cart-btn">
@@ -17,6 +19,7 @@ const Product = (props) => {
             </span>
           </h6>
         </button>
+      </div>
     </div>
   );
 };
