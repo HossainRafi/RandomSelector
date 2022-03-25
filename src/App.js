@@ -4,9 +4,9 @@ import Shop from './components/Shop/Shop';
 
 function App() {
   return (
-    <div className='bg-secondary bg-opacity-25'>
+    <div>
       <Header />
-      <Shop/>
+      <Shop />
     </div>
   );
 }

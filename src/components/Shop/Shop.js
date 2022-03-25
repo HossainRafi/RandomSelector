@@ -9,13 +9,14 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div className="d-flex mx-3">
-      <div className="d-flex justify-content-between bg-success bg-opacity-10 w-75">
+    <div className="">
+      <div className="card-container">
         {products.map((product) => (
           <Product key={product.id} data={product} />
         ))}
       </div>
-      <div className="bg-warning ms-3 w-25">Selected Items</div>
+
+      <div className="cart-container">Selected Items</div>
     </div>
   );
 };
