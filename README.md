@@ -1,3 +1,3 @@
 # HEADPHONE STORE
 
-My Project [Live Link](https://github.com/facebook/create-react-app).
+My Project [Live Link](https://rafis-headphone-store.netlify.app/)
