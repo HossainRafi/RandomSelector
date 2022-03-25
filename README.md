@@ -1,3 +1,3 @@
-# HEADPHONE SHOP
+# HEADPHONE STORE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My Project [Live Link](https://github.com/facebook/create-react-app).
