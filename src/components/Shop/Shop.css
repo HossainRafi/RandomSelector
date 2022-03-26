@@ -37,6 +37,14 @@
 .items-btn:hover{
     background-color: #86a1db;
 }
+.new-container{
+  margin-top: 1rem;
+  text-align: center;
+}
+.new-container img{
+  border-radius: .5rem;
+  width: 250px;
+}
 
 @media  screen and (max-width: 486px) {
   .main-container{

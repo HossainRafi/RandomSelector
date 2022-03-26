@@ -21,8 +21,27 @@ const Shop = () => {
     const newCart = [...cart, product];
     setCart(newCart);
   };
+
+  // =========== Select Randomly Function ===========
+  const [anyOne, setAnyOne] = useState([]);
+  const chooseOne = () => {
+    const any = Math.floor(Math.random() * cart.length);
+    setAnyOne(cart[any]);
+  };
+
+  // ========== Remove All ==========
+  const remove = () => {
+    setCart([])
+  };
   return (
     <div>
+      <div className="new-container">
+        <img src={anyOne.image} alt="" />
+        <div className="product-info">
+          <h4 className="product-name">{anyOne.name}</h4>
+        </div>
+      </div>
+
       <div className="main-container">
         {/* ========== Product Card Section ========== */}
         <div className="card-container">
@@ -40,8 +59,10 @@ const Shop = () => {
 
           {/* ========== Choose & Remove Buttons ========== */}
           <div className="btn-group">
-            <button className="items-btn">Choose One</button>
-            <button className="items-btn">Remove All</button>
+            <button onClick={chooseOne} className="items-btn">
+              Choose One
+            </button>
+            <button onClick={remove} className="items-btn">Remove All</button>
           </div>
         </div>
       </div>
