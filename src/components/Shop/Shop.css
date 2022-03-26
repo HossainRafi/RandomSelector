@@ -13,3 +13,16 @@
   background-color: #92b5ca;
   height: 24rem;
 }
+
+@media  screen and (max-width: 486px) {
+  .main-container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media  screen and (max-width: 486px) {
+  .card-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

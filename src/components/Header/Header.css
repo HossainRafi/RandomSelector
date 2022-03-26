@@ -13,3 +13,8 @@
   font-weight: bolder;
   color: #006492;
 }
+@media  screen and (max-width: 486px) {
+  .header{
+    height: auto;
+  }
+}

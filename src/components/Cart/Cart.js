@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import './Cart.css'
 
 const Cart = () => {
-    return (
-        <div>
-            <h2>Selected Items: </h2>
-        </div>
-    );
+  return (
+    <div className="cart">
+      <h3>Selected Items:</h3>
+    </div>
+  );
 };
 
 export default Cart;
