@@ -23,7 +23,15 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}/>
+        <h3 className="text">Selected Items:</h3>
+        {cart.map((item) => (
+          <Cart item={item} />
+        ))}
+
+        <div className="btn-group">
+          <button className="items-btn">Choose One</button>
+          <button className="items-btn">Remove All</button>
+        </div>
       </div>
     </div>
   );
