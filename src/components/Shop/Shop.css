@@ -10,8 +10,9 @@
 }
 .cart-container {
   margin: 1.5rem 0 0 1rem;
-  background-color: #92b5ca;
+  background-color: #d6d6d6;
   height: 24rem;
+  border-radius: .5rem;
 }
 
 @media  screen and (max-width: 486px) {

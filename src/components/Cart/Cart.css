@@ -1,5 +1,17 @@
 .cart{
-    position: sticky;
-    top: 0;
-    padding: 1rem;
+    padding-left: 1rem;
+}
+.items-btn{
+    background-color: #a2b8c5;
+    color: #bd030c;
+    font-size: 1.1rem;
+    padding: .4rem;
+    margin: .5rem;
+    border: none;
+    border-radius: .3rem;
+    font-weight: 700;
+
+}
+.items-btn:hover{
+    background-color: #86a1db;
 }

@@ -1,10 +1,15 @@
 import React from "react";
-import './Cart.css'
+import "./Cart.css";
 
-const Cart = () => {
+const Cart = ({cart}) => {
   return (
     <div className="cart">
-      <h3>Selected Items:</h3>
+          <h4>Selected Items:</h4>
+          <h5>{cart.length}</h5>
+      <div>
+        <button className="items-btn">Choose One</button>
+        <button className="items-btn">Remove All</button>
+      </div>
     </div>
   );
 };
