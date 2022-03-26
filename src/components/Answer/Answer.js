@@ -16,7 +16,7 @@ const Answer = () => {
         </h4>
       </div>
       <div className="qna">
-        <h2 className="question">How useState Works ?</h2>
+        <h2 className="question">Difference Between Props & State</h2>
         <h4>
           PROPS: Props are read only. যার মানে Props কে Modify করা যায়না। Props
           এর মান যেটা Declare করা হয় Props এর মান সেটাই থাকে। মূলত Props থেকে
